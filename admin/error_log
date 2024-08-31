@@ -1,0 +1,49 @@
+[26-Aug-2024 17:25:10 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:04:12 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:04:16 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:04:25 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:13:26 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:13:49 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:18:33 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:18:40 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:18:53 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:18:54 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:19:16 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:22:30 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[26-Aug-2024 18:22:38 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 270
+[27-Aug-2024 03:54:38 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 03:54:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 03:54:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 03:54:38 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 03:54:38 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 269
+[27-Aug-2024 05:13:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 06:07:44 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 06:07:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 06:07:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 172
+[27-Aug-2024 06:07:44 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 175
+[27-Aug-2024 06:07:44 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 274
+[27-Aug-2024 06:42:14 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 06:42:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 06:42:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 06:42:14 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 176
+[27-Aug-2024 06:42:14 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 275
+[27-Aug-2024 13:39:21 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:21 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 176
+[27-Aug-2024 13:39:21 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 275
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 176
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 275
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 176
+[27-Aug-2024 13:39:22 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 275
+[29-Aug-2024 07:47:08 UTC] PHP Warning:  Undefined array key "system" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[29-Aug-2024 07:47:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[29-Aug-2024 07:47:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 173
+[29-Aug-2024 07:47:08 UTC] PHP Warning:  Undefined array key "auth_username" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 176
+[29-Aug-2024 07:47:08 UTC] PHP Warning:  Undefined array key "auth_user_id" in /home2/emspoxap/public_html/admintalkspace.negroscodeworks.com/talkspace/admin/index.php on line 275
