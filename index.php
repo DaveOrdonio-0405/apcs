@@ -44,7 +44,7 @@
                     <div class="card border-0 shadow-lg rounded-3 animate__animated animate__fadeInDown">
                         <div class="card-body p-5">
                             <div class="text-center mb-4">
-                                <img src="logoz.jpg" alt="Logo" style="height: 120px;">
+                                <!-- <img src="logoz.jpg" alt="Logo" style="height: 120px;"> -->
                                 <h1 class="h2 mt-3 text-dark">Welcome back!</h1>
                                 <p class="lead text-dark">Sign in to your account to continue</p>
                             </div>
