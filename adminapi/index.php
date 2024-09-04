@@ -10,6 +10,7 @@ header("Content-Type: application/json; charset=UTF-8");
 require_once('Controller/Users.php');
 require_once('Controller/Patients.php');  // Include Patients controller
 require_once('Controller/Vaccination.php');
+require_once('Controller/Notes.php');
 include __DIR__ . '/../vendor/autoload.php';
 
 DB::$user = 'root';
@@ -20,6 +21,7 @@ DB::$encoding = 'utf8';
 use Controller\User\User;
 use Controller\Patients;  // Import Patients class
 use Controller\Vaccination;
+use Controller\Notes;
 use Phroute\Phroute\Dispatcher;
 use Phroute\Phroute\RouteCollector;
 
@@ -27,6 +29,7 @@ $router = new RouteCollector();
 $user = new User();
 $patientController = new Patients();  // Initialize Patients controller
 $vaccinationController = new Vaccination();  // Initialize Vaccination controller
+$notesController = new Notes();
 
 date_default_timezone_set('Asia/Manila');
 
@@ -57,6 +60,12 @@ $router->post('apcs/adminapi/add-vaccination', fn() => $vaccinationController->a
 $router->post('apcs/adminapi/update-vaccination/{id}', fn($id) => $vaccinationController->update_vaccination($id));
 $router->delete('apcs/adminapi/delete-vaccination/{id}', fn($id) => $vaccinationController->delete_vaccination($id));
 $router->get('apcs/adminapi/get-vaccination/{id}', fn($id) => $vaccinationController->get_vaccination($id));
+
+$router->get('apcs/adminapi/get-notes', fn() => $notesController->get_notes());
+$router->get('apcs/adminapi/get-note/{id}', fn($id) => $notesController->get_note($id));
+$router->post('apcs/adminapi/add-note', fn() => $notesController->add_note());
+$router->put('apcs/adminapi/update-note/{id}', fn($id) => $notesController->update_note($id));
+$router->delete('apcs/adminapi/delete-note/{id}', fn($id) => $notesController->delete_note($id));
 
 
 

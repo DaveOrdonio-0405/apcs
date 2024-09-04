@@ -30,34 +30,43 @@
 </div>
 
 
-<!-- Edit User Modal -->
-<div class="modal fade" id="editUserModal" tabindex="-1" aria-labelledby="editUserModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="editUserModalLabel">Edit User</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form id="editUserForm">
-          <div class="mb-3">
-            <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" name="username">
-          </div>
-          <div class="mb-3">
-            <label for="verified" class="form-label">Verified</label>
-            <select class="form-control" id="verified" name="verified">
-              <option value="1">Yes</option>
-              <option value="0">No</option>
-            </select>
-          </div>
-          <input type="hidden" id="userId" name="userId">
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="saveUserBtn">Save changes</button>
-      </div>
+<!-- Edit Vaccination Modal -->
+<div class="modal fade" id="editVaccinationModal" tabindex="-1" aria-labelledby="editVaccinationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editVaccinationModalLabel">Edit Vaccination Record</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editVaccinationForm">
+                    <!-- Hidden field for vaccination ID -->
+                    <input type="hidden" id="editVaccinationId">
+
+                    <!-- Display Patient Name in a readonly field -->
+                    <div class="mb-3">
+                        <label for="editPatientName" class="form-label">Patient Name</label>
+                        <input type="text" class="form-control" id="editPatientName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editVaccineType" class="form-label">Vaccine Type</label>
+                        <select class="form-control" id="editVaccineType" required></select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editDateOfVaccination" class="form-label">Date of Vaccination</label>
+                        <input type="date" class="form-control" id="editDateOfVaccination" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editNextDueDate" class="form-label">Next Due Date</label>
+                        <input type="date" class="form-control" id="editNextDueDate">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="saveEditVaccinationBtn">Save changes</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
