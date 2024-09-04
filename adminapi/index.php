@@ -9,7 +9,7 @@ header("Content-Type: application/json; charset=UTF-8");
 
 require_once('Controller/Users.php');
 require_once('Controller/Patients.php');  // Include Patients controller
-
+require_once('Controller/Vaccination.php');
 include __DIR__ . '/../vendor/autoload.php';
 
 DB::$user = 'root';
@@ -19,12 +19,14 @@ DB::$encoding = 'utf8';
 
 use Controller\User\User;
 use Controller\Patients;  // Import Patients class
+use Controller\Vaccination;
 use Phroute\Phroute\Dispatcher;
 use Phroute\Phroute\RouteCollector;
 
 $router = new RouteCollector();
 $user = new User();
 $patientController = new Patients();  // Initialize Patients controller
+$vaccinationController = new Vaccination();  // Initialize Vaccination controller
 
 date_default_timezone_set('Asia/Manila');
 
@@ -48,6 +50,15 @@ $router->get('apcs/adminapi/get-patient/{id}', fn($id) => $patientController->ge
 $router->post('apcs/adminapi/add-patient', fn() => $patientController->add_patient());
 $router->post('apcs/adminapi/update-patient/{id}', fn($id) => $patientController->update_patient($id));
 $router->delete('apcs/adminapi/delete-patient/{id}', fn($id) => $patientController->delete_patient($id));
+
+// Vaccination routes
+$router->get('apcs/adminapi/get-vaccinations', fn() => $vaccinationController->get_vaccinations());
+$router->post('apcs/adminapi/add-vaccination', fn() => $vaccinationController->add_vaccination());
+$router->post('apcs/adminapi/update-vaccination/{id}', fn($id) => $vaccinationController->update_vaccination($id));
+$router->delete('apcs/adminapi/delete-vaccination/{id}', fn($id) => $vaccinationController->delete_vaccination($id));
+$router->get('apcs/adminapi/get-vaccination/{id}', fn($id) => $vaccinationController->get_vaccination($id));
+
+
 
 $dispatcher = new Dispatcher($router->getData());
 $httpMethod = $_SERVER['REQUEST_METHOD'];

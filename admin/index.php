@@ -40,7 +40,7 @@ if (!isset($_SESSION['auth_user_id'])) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">.
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/3.1.1/css/buttons.dataTables.css">
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
 
 <style>
 
@@ -154,6 +154,13 @@ if (!isset($_SESSION['auth_user_id'])) {
                     <span style='font-size:18px;color:#002966;'>Patients</span>
                 </a>
             </li>
+            <li class="sidebar-item <?php if (isset($_GET['vaccinations'])) { echo 'active'; } ?>">
+        <a class="sidebar-link" href="http://localhost/apcs/admin/index.php?vaccinations">
+            <i class="fas fa-syringe" style='color:#002966;'></i>
+            <span style='font-size:18px;color:#002966;'>Vaccination Records</span>
+        </a>
+    </li>
+            
         </ul>
     </div>
 </nav>
@@ -203,13 +210,17 @@ if (!isset($_SESSION['auth_user_id'])) {
 
 					
                 <?php
-                if (isset($_GET['users'])) {
-                    include 'pages/users.php';
-                }
-                if (isset($_GET['patients'])) {
-                    include 'pages/patients.php';
-                }
+                    if (isset($_GET['users'])) {
+                        include 'pages/users.php';
+                    }
+                    if (isset($_GET['patients'])) {
+                        include 'pages/patients.php';
+                    }
+                    if (isset($_GET['vaccinations'])) {
+                        include 'pages/vaccinations.php';
+                    }
                 ?>
+
 
 
 				</div>
@@ -254,18 +265,23 @@ if (!isset($_SESSION['auth_user_id'])) {
     <!-- DataTables Buttons JS -->
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/2.1.1/js/dataTables.buttons.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/2.1.1/js/buttons.print.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 
 
 
 
-        <?php
-        if (isset($_GET['users'])) {
-            echo '<script src="js/users.js"></script>';
-        }
-        if (isset($_GET['patients'])) {
-            echo '<script src="js/patients.js"></script>';
-        }
-        ?>
+    <?php
+    if (isset($_GET['users'])) {
+        echo '<script src="js/users.js"></script>';
+    }
+    if (isset($_GET['patients'])) {
+        echo '<script src="js/patients.js"></script>';
+    }
+    if (isset($_GET['vaccinations'])) {
+        echo '<script src="js/vaccination.js"></script>';
+    }
+    ?>
+
  
     <script type="text/javascript">
        
